@@ -1,0 +1,88 @@
+$font: 'Montserrat', sans-serif;
+$fontColor: #4E5150;
+$colorPrimary:  #A9A9A9;
+$colorSecondary: #E5E5E5;
+$radius: 20px;
+$widthsquare: 298px;
+$widthrectangle: 627px;
+
+body{
+    font-family: $font;
+    width: 90%;
+    text-align: center;
+    margin: 40px auto;
+    color: $fontColor;
+}
+#profile{
+    border-radius: 60px;
+    width: 217px;
+}
+h1{
+    margin-top: 10px;
+    font-size: 24px;
+}
+h2{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: $colorPrimary;
+}
+#statistics{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.stat{
+    width: 100px;
+    height: 67px;
+    background-color: $colorSecondary;
+    border-radius: 16px;
+}
+.number{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.text{
+    margin-top: 0px;
+    font-size: 14px;
+}
+#firstrow{
+    margin-top: 60px;
+}
+.squareimage{
+    width: $widthsquare;
+    border-radius: $radius;
+}
+.rectangleimage{
+    width: $widthrectangle;
+    border-radius: $radius;
+}
+#firstcolumn{
+    width: $widthrectangle;
+}
+#secondrow{
+    margin-top: 30px;
+    display: flex;
+}
+#one{
+    margin-right: 30px;
+}
+#three{
+    margin-left: -30px;
+}
+#four{
+    margin-left: -40px;
+    margin-top: 30px;
+}
+#five{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#six{
+    border-radius: 30px;
+    width: 305px;
+    margin-right: -30px;
+}
