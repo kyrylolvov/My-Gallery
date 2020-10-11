@@ -52,6 +52,11 @@ h2{
 #firstrow{
     margin-top: 60px;
 }
+#secondrow{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
 .squareimage{
     width: $widthsquare;
     border-radius: $radius;
@@ -65,11 +70,6 @@ h2{
 }
 #secondcolumn{
     margin-left: 20px;
-}
-#secondrow{
-    margin-top: 30px;
-    display: flex;
-    margin-left: 205px;
 }
 #one{
     margin-right: 30px;
