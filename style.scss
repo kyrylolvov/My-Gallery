@@ -90,3 +90,22 @@ h2{
     width: 305px;
     margin-right: -30px;
 }
+@media (max-width: 1069px){
+    $widthsquare: 198px;
+    $widthrectangle: 418px;
+    .squareimage{
+        width: $widthsquare;
+    }
+    .rectangleimage{
+        width: $widthrectangle;
+    }
+    #six{
+        width: $widthsquare;
+    }
+    #firstcolumn {
+        width: 440px;
+    }
+    #secondrow{
+        margin-left: -15px;
+    }
+}
